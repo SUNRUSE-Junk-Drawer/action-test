@@ -12,7 +12,9 @@ jobs:
     - uses: ilammy/msvc-dev-cmd@v1
 
     # install this github action.
-    - uses: neomura/setup-aseprite-cli-action@v0.0.1
+    - uses: neomura/setup-aseprite-cli-action@v0.0.2
+
+    - run: ls
 
     # aseprite is now available on the path.
     - run: aseprite --help
