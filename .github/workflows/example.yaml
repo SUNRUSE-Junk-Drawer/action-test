@@ -12,7 +12,7 @@ jobs:
     - uses: ilammy/msvc-dev-cmd@v1
 
     # install this github action.
-    - uses: neomura/setup-aseprite-cli-action@v0.0.2
+    - uses: neomura/setup-aseprite-cli-action@v0.0.3
 
     - run: ls
 
