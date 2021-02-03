@@ -18,4 +18,6 @@ jobs:
     - uses: neomura/setup-aseprite-cli-action@v1.0.1
     - uses: neomura/setup-avra-cli-action@v1.0.1
     - run: aseprite --help
+      shell: bash
     - run: avra --help
+      shell: bash
