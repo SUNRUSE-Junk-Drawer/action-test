@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: ilammy/msvc-dev-cmd@v1
-    - uses: neomura/setup-aseprite-cli-action@v1.0.1
+    - uses: neomura/setup-aseprite-cli-action@v1.0.2
     - uses: neomura/setup-avra-cli-action@v1.0.1
     - run: aseprite --help
       shell: bash
